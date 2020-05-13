@@ -1,0 +1,10 @@
+<img src='./assets/bike.png'>
+<img src='./assets/source.png' width="24px">
+<app-hola-mundo 
+  [miNombre]="miNombre"
+  [contador]="contador">
+</app-hola-mundo>
+<app-boton 
+  (aumentarConteo)="contar()"
+  (disminuirConteo)="restar()"
+></app-boton>
